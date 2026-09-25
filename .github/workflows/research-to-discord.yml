@@ -2,7 +2,7 @@ name: Research Report to Discord
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [labeled]
 
 jobs:
   notify-discord:
