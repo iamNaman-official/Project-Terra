@@ -4,6 +4,8 @@ on:
   issues:
     types: [labeled]
 
+permissions: {}
+
 jobs:
   notify-discord:
     if: contains(github.event.issue.labels.*.name, 'research')
